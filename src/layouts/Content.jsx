@@ -26,14 +26,14 @@ function Main() {
                     />
                   </label>
                   <label class="block">
-                    <span class="text-gray-700">content</span>
+                    <span class="text-gray-700">Content</span>
                     <textarea
                       class="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black"
                       rows="4"
                     ></textarea>
                   </label>
                   <div className="flex justify-center lg:justify-end">
-                    <button class="rounded-lg bg-gray-500 h-8 text-white w-32 center">
+                    <button class="rounded-lg bg-gray-500 h-8 mb-1 mx-2 text-white w-32 center">
                       Save
                     </button>
                   </div>
@@ -61,7 +61,7 @@ function Main() {
                     />
                   </label>
                   <div className="flex justify-center">
-                    <button class="rounded-lg bg-gray-500 h-8 text-white w-32">
+                    <button class="rounded-lg bg-gray-500 h-8 mb-1 mx-2 text-white w-32">
                       Search
                     </button>
                   </div>
@@ -72,9 +72,10 @@ function Main() {
         </div>
         <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl m-8">
           <h2 className="text-base/10 font-semibold text-center bg-gray-700 text-white">
-            Results
+            Results / Details Results
           </h2>
-          <div className="flex flex-col lg:flex-row lg:h-96 divide-x-2 divide-gray-200">
+          <div className="flex flex-col lg:flex-row lg:h-96 lg:divide-x-2 lg:divide-gray-200">
+            {/* INI DIPAKAI TUK DEFAULT AWAL TAMPILAN */}
             <div className="w-full bg-white ">
               <h3 className="text-base/10 text-center  text-white bg-gray-600">
                 Active
@@ -95,6 +96,26 @@ function Main() {
                 </a>
               </div>
             </div>
+
+            {/* INI DIPAKAI KETIKA USER KLIK DETAIL CATATAN
+            <div class="px-4 w-full">
+              <div class="mt-7 mb-4 max-full">
+                <div class="grid grid-cols-1 gap-6">
+                  <span class="text-gray-700">Title</span>
+                  <span className="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black text-center leading-loose"></span>
+                  <span class="text-gray-700">Content</span>
+                  <span className="mt-0 block w-full px-0.5 border-0 border-b-2 h-32 border-gray-200 focus:ring-0 focus:border-black text-center leading-loose"></span>
+                  <div className="flex flex-col sm:flex-row items-center sm:justify-center lg:justify-end">
+                    <button class="rounded-lg bg-gray-500 h-8 mb-1 mx-2 text-white w-32">
+                      Archieve
+                    </button>
+                    <button class="rounded-lg bg-gray-500 h-8 mb-1 mx-2 text-white w-32">
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>
