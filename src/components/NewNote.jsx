@@ -16,7 +16,6 @@ function NewNote() {
                   type="text"
                   className="mt-0 block w-full px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black required"
                   placeholder=""
-                  wfd-id="id8"
                 />
               </label>
               <label className="block">

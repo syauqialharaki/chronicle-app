@@ -4,7 +4,7 @@ const notesData = [
     title: "Welcome to Notes, Dimas!",
     body: "Welcome to Notes! This is your first note. You can archive it, delete it, or create new ones.",
     createdAt: "2022-07-28T10:03:12.594Z",
-    archived: false,
+    archived: true,
   },
   {
     id: "notes-aB-cdefg12345",
@@ -106,4 +106,4 @@ const notesData = [
   },
 ];
 
-console.log(notesData);
+export default notesData;
